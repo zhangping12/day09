@@ -22,7 +22,7 @@ public class ResponseDemo4 extends HttpServlet {
         //response.setHeader("content-type", "text/html");
 //        response.setContentType("text/html;charset=utf-8");//和上面代码等价。推荐使用此方法
         //response.setContentType("text/xml");
-        //response.setContentType("image/jpg");
+        response.setContentType("image/jpg");
 
 
         //response.getWriter().write("<html><head><title>this is tilte</title></head><body>中国</body></html>");

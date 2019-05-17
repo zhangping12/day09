@@ -28,11 +28,10 @@ public class ResponseDemo1 extends HttpServlet {
         resp.setHeader("server","Jboss");
 
         //3.3 实体内容(浏览器直接能够看到的内容就是实体内容)
-        resp.getWriter().write("01.hello word");//字符内容
+        resp.getWriter().write("01.hello world");//字符内容
         resp.getOutputStream().write("02.hello world".getBytes());//字节内容
-
-        /**
-         * 4)tomcat服务器把response对象的内容转换成响应格式内容，再发送给浏览器解析。
-         */
     }
+    /**
+     * 4)tomcat服务器把response对象的内容转换成响应格式内容，再发送给浏览器解析。
+     */
 }
